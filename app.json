@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Voxtel Agent",
+    "slug": "voxtel-agent",
+    "scheme": "voxtelagent",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "splash": {
+      "backgroundColor": "#060B18"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.voxtelagent.app"
+    },
+    "android": {
+      "package": "com.voxtelagent.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "router": {
+        "origin": "https://voxtel.agent.com"
+      },
+      "eas": {
+        "projectId": "5bfec34f-9455-48f1-8c02-f3acce653323"
+      }
+    },
+    "owner": "Swechs0"
+  }
+}
